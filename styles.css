@@ -1,5 +1,9 @@
 .parent {
   background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .nav-container {
   display: inline-flex;
@@ -57,8 +61,92 @@ body {
   box-shadow: 10px 10px 10px burlywood;
   transform: scale(0.9);
 }
-h2 {
+.menu-1 {
   margin-left: 230px;
   margin-top: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+.menu-2 {
+  margin-left: 230px;
+  font-family: "Open Sans", sans-serif;
+}
+/* .pizza,
+.north-indian,
+.khichdi {
+  display: none;
+} */
+.swipe {
+  display: inline-flex;
+  margin-top: 25px;
   margin-bottom: 0px;
+}
+.swipe-icons {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-top: 80px;
+}
+.swipe-2 {
+  display: inline-flex;
+  align-items: center;
+}
+.swipe-icons-2 {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.next {
+  margin-left: 10px;
+}
+.prev {
+  margin-left: 800px;
+  opacity: 0.5;
+}
+.next-2 {
+  margin-left: 10px;
+}
+.prev-2 {
+  margin-left: 680px;
+  opacity: 0.5;
+}
+
+.pastry,
+.dessert,
+.paratha {
+  display: none;
+}
+.line {
+  width: 90%;
+  height: 2px;
+}
+hr {
+  width: 78%;
+  border: 1px solid rgb(125, 122, 122);
+  margin-left: 190px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0.2;
+}
+
+.restaurant {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  align-items: center;
+  margin-left: 220px;
+}
+.shortcut-images-2 {
+  width: 300px;
+  height: auto;
+}
+.restaurant > img {
+  width: 250px;
+  height: auto;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.restaurant > img:hover {
+  box-shadow: 10px 10px 10px burlywood;
+  transform: scale(0.9);
 }
